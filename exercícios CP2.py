@@ -221,3 +221,35 @@
 #     contagem += 1
 #
 # print(f"O menor número digitado é: {menor}")
+
+# EX 9
+
+# par = 0
+# impar = 0
+# soma_par = 0
+# soma_impar = 0
+# contagem = 0
+#
+# n = int(input("Digite a quantidade de números: "))
+# print(f"Digite {n} números inteiros")
+# while contagem < n:
+#     num = int(input("Escreva aqui: "))
+#     contagem = contagem + 1
+#     if num % 2 == 0:
+#         par = par + 1
+#         soma_par += num
+#     elif num % 2 != 0:
+#         impar = impar + 1
+#         soma_impar += num
+#
+# if par > 0:
+#     media_par = soma_par / par
+#     print(f"Média dos pares: {media_par}")
+# else:
+#     print("Não há números pares para calcular a média.")
+#
+# if impar > 0:
+#     media_impar = soma_impar / impar
+#     print(f"Média dos ímpares: {media_impar}")
+# else:
+#     print("Não há números ímpares para calcular a média.")
